@@ -19,12 +19,12 @@
 body{
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    background: #f4f4f4;
-    color: #333333;
+    background: black;
+    color: white
 }
 
 .container{
-    max-width: 1100px;
+    max-width: 500px;
     margin:auto;
     overflow: hidden;
     padding: 0 2rem;
@@ -40,7 +40,8 @@ body{
     cursor: pointer;
     outline: none;
     border: none;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
 }
 
 .restart-btn:hover{
@@ -62,6 +63,7 @@ body{
     grid-template-columns: repeat(2, 1fr);
     font-size: 1.2rem;
     color: #fff;
+    
 }
 
 .score p:first-child{
@@ -69,7 +71,7 @@ body{
 }
 
 .score p:last-child{
-    background: var(--dark-color);   
+    background: rgba(255, 0, 0, 0.678);   
 }
 
 .choices {
@@ -95,7 +97,6 @@ body{
 .text-lose {
   color: var(--lose-color);
 }
-
 
 
 
