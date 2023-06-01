@@ -70,15 +70,15 @@ background: linear-gradient(-45deg, #ee3131, #ff4e4e, #40a8fd, #0099ff);
 
 .score p:first-child{
     background:  rgb(4, 141, 233);
-    padding-top: 19px;
-    padding-bottom: 19px; 
+    padding-top: 16px;
+    padding-bottom: 16px; 
     border-radius: 15px; 
 }
 
 .score p:last-child{
     background: rgba(255, 0, 0, 0.678);
-    padding-top: 19px;
-    padding-bottom: 19px; 
+    padding-top: 16px;
+    padding-bottom: 16px; 
    border-radius: 15px;    
 }
 
