@@ -5,10 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ROCK N SIC</title>
+    <script src="https://kit.fontawesome.com/92155eb491.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="modal.css">
 </head>
 <body>
     
+<div class="container">
+<header class="header">
+<h1>ROCK N SIC</h1>
+<button class="restart restart-btn">Restart Game</button>
+<div id="score" class="score">
+<p>Player : 0</p>
+ <p>Computer : 0</p>
+</div>
+</header>
+<h2>Make Your Choice</h2>
+<div class="choices">
+<i id="rock" class="choice fas fa-hand-rock fa-7x " ></i>
+<i id="paper" class="choice fas fa-hand-paper fa-7x"></i>
+<i id="scissors" class="choice fas fa-hand-scissors fa-7x"></i>
+</div>
+</div>
+
+
+<div class="modal">
+    <div id="result" class="modal-content">
+<h1>You win</h1>
+<i class="fas fa-hand-rock fa-7x">
+</i>
+<p>Computer chose Rock</p>
+    </div>
+</div>
 
 
     <script src="index.js"></script>
